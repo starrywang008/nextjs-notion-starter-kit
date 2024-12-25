@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'Starry Wang Portfolio',
+  domain: 'starrywang.com',
+  author: 'Starry Wang',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Starry Wang - Instructional Designer, Content Creator, and EdTech Advocate',
 
   // social usernames (optional)
   twitter: 'transitive_bs',
@@ -55,11 +55,11 @@ export default siteConfig({
   // navigationLinks: [
   //   {
   //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
+  //     pageId: '167531c2a913813fb354f08ea9941f4a'
   //   },
   //   {
   //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+  //     pageId: '167531c2a91381578cd5f53baea3e318'
   //   }
   // ]
 })
