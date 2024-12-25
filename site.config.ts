@@ -17,9 +17,10 @@ export default siteConfig({
   description: 'Starry Wang - Instructional Designer, Content Creator, and EdTech Advocate',
 
 
-twitter: 'https://twitter.com/your_twitter_handle',
-github: 'https://github.com/your_github_username',
+export const siteConfig = {
   linkedin: 'qingru-wang-5031811b4/',
+  instagram: 'starrywang_photography' // 从链接提取用户名
+};
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
