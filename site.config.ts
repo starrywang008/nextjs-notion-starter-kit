@@ -50,16 +50,15 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
-  navigationStyle: 'custom'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: '167531c2a913813fb354f08ea9941f4a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '167531c2a91381578cd5f53baea3e318'
-  //   }
-  // ]
+ navigationStyle: 'custom',
+navigationLinks: [
+  {
+    title: 'About',
+    pageId: '167531c2a913813fb354f08ea9941f4a', // 替换为你的 About 页面 ID
+  },
+  {
+    title: 'Contact',
+    pageId: '167531c2a91381578cd5f53baea3e318', // 替换为你的 Contact 页面 ID
+  },
+],
 })
