@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Starry Wang Portfolio',
-  domain: 'starrywang.com',
+  domain: 'starrywang.vercel.app',
   author: 'Starry Wang',
 
   // open graph metadata (optional)
