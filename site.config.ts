@@ -19,7 +19,7 @@ export default siteConfig({
 // 修改为实际链接
 twitter: 'https://twitter.com/your_twitter_handle',
 github: 'https://github.com/your_github_username',
-linkedin: 'in/qingru-wang-5031811b4/',
+linkedin: 'qingru-wang-5031811b4/',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
