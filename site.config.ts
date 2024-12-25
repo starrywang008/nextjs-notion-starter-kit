@@ -17,9 +17,10 @@ export default siteConfig({
   description: 'Starry Wang - Instructional Designer, Content Creator, and EdTech Advocate',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'https://www.linkedin.com/in/qingru-wang-5031811b4/',
+instagram: 'https://www.instagram.com/starrywang_photography/',
+bilibili: 'https://space.bilibili.com/22123718?spm_id_from=333.1365.0.0',
+linkedin: 'https://www.linkedin.com/in/qingru-wang-5031811b4/',
+
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
