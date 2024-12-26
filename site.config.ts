@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Starry Wang Portfolio',
-  domain: 'starrywang.vercel.app',
+  domain: 'starrywang.com',
   author: 'Starry Wang',
 
   // open graph metadata (optional)
@@ -27,7 +27,7 @@ export const siteConfig = {
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: null,
+  defaultPageIcon: '/favicon.ico',
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
