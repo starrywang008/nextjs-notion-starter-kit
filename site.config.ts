@@ -17,14 +17,6 @@ export default siteConfig({
   description: 'Starry Wang - Instructional Designer, Content Creator, and EdTech Advocate',
 
 
-export const siteConfig = {
-  linkedin: 'qingru-wang-5031811b4/',
-  instagram: 'starrywang_photography' // 从链接提取用户名
-};
-  // mastodon: '#', // optional mastodon profile URL, provides link verification
-  // newsletter: '#', // optional newsletter URL
-  // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
-
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
   defaultPageIcon: '/favicon.ico',
