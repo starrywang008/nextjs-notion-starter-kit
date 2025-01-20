@@ -41,6 +41,9 @@ export default siteConfig({
   // }
   pageUrlOverrides: null,
 
+  linkedin: "qingru-wang-5031811b4",
+  bilibili: "22123718",
+  instagram: "starrywang_photography",
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
  navigationStyle: 'custom',
