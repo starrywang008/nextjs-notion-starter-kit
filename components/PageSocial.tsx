@@ -1,5 +1,7 @@
 import type * as React from 'react'
 import cs from 'classnames'
+import Image from 'next/image'
+import bilibiliIcon from "./icons/bilibili.png"
 
 import * as config from '@/lib/config'
 
@@ -29,10 +31,11 @@ const socialLinks: SocialLink[] = [
     href: `https://space.bilibili.com/${config.bilibili}`,
     title: `Bilibili ${config.author}`,
     icon: (
-      <img
-        src='/path-to-bilibili-icon.png'
-        alt='Bilibili'
-        style={{ width: 24, height: 24 }}
+      <Image
+        src={bilibiliIcon} // Use the imported StaticImageData
+        alt="Bilibili"
+        width={36}
+        height={36}
       />
     )
   },
