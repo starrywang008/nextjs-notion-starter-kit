@@ -54,7 +54,6 @@ export function FooterImpl() {
         )}
       </div>
 
-      
       <div className={styles.social}>
         {config.twitter && (
           <a
@@ -79,7 +78,7 @@ export function FooterImpl() {
             <FaInstagram />
           </a>
         )}
-        
+
         {config.mastodon && (
           <a
             className={styles.mastodon}

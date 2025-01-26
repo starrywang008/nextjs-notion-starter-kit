@@ -14,8 +14,8 @@ export default siteConfig({
   author: 'Starry Wang',
 
   // open graph metadata (optional)
-  description: 'Starry Wang - Instructional Designer, Content Creator, and EdTech Advocate',
-
+  description:
+    'Starry Wang - Instructional Designer, Content Creator, and EdTech Advocate',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
@@ -41,20 +41,20 @@ export default siteConfig({
   // }
   pageUrlOverrides: null,
 
-  linkedin: "qingru-wang-5031811b4",
-  bilibili: "22123718",
-  instagram: "starrywang_photography",
+  linkedin: 'qingru-wang-5031811b4',
+  bilibili: '22123718',
+  instagram: 'starrywang_photography',
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
- navigationStyle: 'custom',
-navigationLinks: [
-  {
-    title: 'About',
-    pageId: '167531c2a913813fb354f08ea9941f4a', // 替换为你的 About 页面 ID
-  },
-  {
-    title: 'Contact',
-    pageId: '167531c2a91381578cd5f53baea3e318', // 替换为你的 Contact 页面 ID
-  },
-],
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'About',
+      pageId: '167531c2a913813fb354f08ea9941f4a' // 替换为你的 About 页面 ID
+    },
+    {
+      title: 'Contact',
+      pageId: '167531c2a91381578cd5f53baea3e318' // 替换为你的 Contact 页面 ID
+    }
+  ]
 })
