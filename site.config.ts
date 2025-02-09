@@ -53,7 +53,7 @@ export default siteConfig({
       pageId: '167531c2a913813fb354f08ea9941f4a' // 替换为你的 About 页面 ID
     },
     {
-      title: 'Contact',
+      title: 'Blog',
       pageId: '167531c2a91381578cd5f53baea3e318' // 替换为你的 Contact 页面 ID
     }
   ]
