@@ -55,7 +55,7 @@ export default siteConfig({
     {
       title: 'Blog',
       pageId: '167531c2a91381578cd5f53baea3e318' // 替换为你的 Contact 页面 ID
-    }
+    },
     {
       title: 'Resume',
       url: 'https://docs.google.com/document/d/1H8_flh4q2AL1mUgqEyVtGvlWwaZI5QestdTNw7saP9s/edit?usp=sharing' // 替换为你的 Contact 页面 ID
