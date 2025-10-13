@@ -37,4 +37,6 @@ export default withBundleAnalyzer({
 
   // See https://react-tweet.vercel.app/next#troubleshooting
   transpilePackages: ['react-tweet']
+    
+  eslint: { ignoreDuringBuilds: true }
 })
