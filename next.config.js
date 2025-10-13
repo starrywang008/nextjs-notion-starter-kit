@@ -1,13 +1,11 @@
-// next.config.js
-import bundleAnalyzer from '@next/bundle-analyzer'
+// next.config.js  —— 极简稳定版
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-const withBundleAnalyzer = bundleAnalyzer({
-  enabled: process.env.ANALYZE === 'true'
-})
+const dirname = path.dirname(fileURLToPath(import.meta.url))
 
-export default withBundleAnalyzer({
+/** @type {import('next').NextConfig} */
+const config = {
   staticPageGenerationTimeout: 300,
 
   images: {
@@ -24,17 +22,18 @@ export default withBundleAnalyzer({
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;"
   },
 
-  webpack: (config, _context) => {
+  webpack: (config) => {
     // 修正 react / react-dom 解析
-    const dirname = path.dirname(fileURLToPath(import.meta.url))
     config.resolve.alias.react = path.resolve(dirname, 'node_modules/react')
     config.resolve.alias['react-dom'] = path.resolve(dirname, 'node_modules/react-dom')
     return config
   },
 
-  // See https://react-tweet.vercel.app/next#troubleshooting
-  transpilePackages: ['react-tweet'],   // ← 这里一定要有逗号！
+  // 这行常被漏掉逗号，导致 eslint 变成“意外的标识符”
+  transpilePackages: ['react-tweet'],  // ← 注意这个逗号
 
-  // 避免 unicorn 规则在构建期报错
+  // 构建期跳过 ESLint 规则（避免 unicorn 报错）
   eslint: { ignoreDuringBuilds: true }
-})
+}
+
+export default config
