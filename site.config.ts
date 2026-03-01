@@ -58,7 +58,7 @@ export default siteConfig({
     },
     {
       title: 'Resume',
-      url: 'https://docs.google.com/document/d/1EyY4C_LWBdYog7y0pbQiYiz34cbb46TEfaDvBKI85Io/edit?usp=sharing' // 替换为你的 Contact 页面 ID
+      url: 'https://docs.google.com/document/d/1_Oo7syUlkiy3Ui1U__r1wv53fVNzt1oDbuTsSE6MM-A/edit?usp=sharing' // 替换为你的 Contact 页面 ID
     }
   ]
 })
